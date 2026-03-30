@@ -6,7 +6,7 @@
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
  board: [ "nice_nano" ]
- shield: [ "Ashwing64" ]
+ shield: [ "Shorky21" ]
  include:
    - board: nice_nano
      snippet: studio-rpc-usb-uart
