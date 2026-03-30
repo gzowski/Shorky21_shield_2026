@@ -8,7 +8,9 @@
 #include "Shorky21-layouts.dtsi"
 
 / {
-  chosen { zmk,physical-layout = &default_layout; };
+  chosen { zmk,physical-layout = &default_layout;
+	   zmk,underglow = &led_strip;
+         };
 
   default_transform: keymap_transform0 {
     compatible = "zmk,matrix-transform";
